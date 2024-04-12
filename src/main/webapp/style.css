@@ -1,0 +1,139 @@
+@charset "ISO-8859-1";
+/*index page styling*/
+  /*	        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EEF3E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+html,body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #EEF3E2;
+    }
+
+
+    .btn-container {
+        text-align: center;
+        
+    }
+     #btn,
+    .btn ,
+    .dashbtn{
+        display: inline-block;
+        background: rgb(205, 90, 52,0.9);
+        color: rgb(241, 241, 245);
+        font-size: 20px;
+        text-decoration: none;
+        padding: 8px 20px;
+        border-radius: 10px;
+        border: 2px solid #1e3551;
+        transition: all 0.5s ease;
+        margin: 15px;
+        margin-top: 5%;
+    }
+     #btn:hover,
+    .btn:hover ,
+    .dashbtn:hover{
+        border: 2px solid rgb(241, 242, 245);
+        color: rgb(8, 19, 26);
+    }
+
+    .Wmsg {
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 40px;
+        color: rgb(178, 30, 30);
+        animation: typing 3s forwards;
+        text-shadow: 4px 4px 6px rgba(27, 15, 15,0.3);
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+
+
+/* Admin login form styling*/
+ 
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            width: 400px;
+        }
+
+        .hd {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+        }
+
+        .label {
+            font-size: 17.5px;
+            width: 80px;
+            margin-right: 18px;
+        }
+
+        .input {
+            padding: 12px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            font-size: 16px;
+        }
+      
+        .input:hover{
+            border: 2px solid #a5a0a0;
+        }
+        #btn{
+            width:140px;
+	        margin-left: 28%;
+        }
+
+        .icon {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 280px;
+        transform: translateY(-50%);
+        color: #6e6666;
+        }
+        
+   /* AdminLogin.jsp styling */   
+ 
+       /* product.html styling*/
+       #container{
+		width: 500px;
+		padding: 30px 95px;
+	}
+	.dtl{
+	font-size: 22px;
+	font-weight: 580;
+}
+#form{
+	  font-size: 18px;
+     }
+
+#input{
+	padding: 8px;
+}
+.dtl{
+	font-size: 24px;
+}
